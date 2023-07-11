@@ -1,0 +1,3 @@
+for (;;) {
+   console.log("Hello");
+}
