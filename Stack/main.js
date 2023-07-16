@@ -1,0 +1,23 @@
+var foods = [];
+foods.push("Pizza");
+foods.push("Sandwich");
+foods.push("Snacks");
+console.log(foods);
+console.log("Length Of Foods Array = "+foods.length);
+foods.pop();
+console.log(foods);
+console.log("Length Of Foods Array = "+foods.length);
+
+var countries = [];
+countries.push("Pakistan");
+countries.push("China");
+countries.push("Iran");
+countries.push("Japan");
+countries.push("Germany");
+countries.push("Russia");
+console.log(countries);
+console.log("Length Of Countries Array = "+countries.length);
+var c1 = countries.pop();
+console.log(countries);
+console.log("Length Of Countries Array = "+countries.length);
+console.log('Popped Element from Array is "'+c1+'"');
