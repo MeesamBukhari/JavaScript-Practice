@@ -1,0 +1,11 @@
+var foods = [];
+foods.push("Pizza");
+foods.push("Burger");
+foods.push("Snacks");
+foods.push("Fries");
+console.log(foods);
+console.log("Length of Foods Array = "+foods.length);
+var f1 = foods.shift();
+console.log(foods);
+console.log("Length of Foods Array = "+foods.length);
+console.log('Shifted Element from Array is "'+f1+'"');
