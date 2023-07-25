@@ -1,2 +1,2 @@
 var today = new Date();
-alert(Date);
+alert(today);
